@@ -1,0 +1,50 @@
+// element公用样式，如果有特别的再去重置
+
+.el-input.is-disabled .el-input__inner{
+  background-color: transparent;
+  border: 1px solid #4082fa;
+}
+
+// 输入框的样式
+.el-input__inner {
+  background-color: transparent;
+  border: 1px solid rgba(64, 130, 250, 0.8);
+  color: #ffffff !important;
+  &:hover {
+    border: 1px solid rgba(76, 106, 163, 0.8);
+  }
+}
+.el-input-group__append, .el-input-group__prepend{
+  width: 15%;
+  background-color: transparent;
+  border-top: 1px solid #4082fa;
+  border-left: 1px solid #4082fa;
+  border-bottom: 1px solid #4082fa;
+}
+.el-textarea__inner{
+  background-color: transparent;
+  border: 1px solid rgba(64,130,250,0.40);
+  color: rgba(251, 252, 255, 0.8);
+  &:hover{
+    border: 1px solid rgba(76, 106, 163, 0.8);
+  }
+}
+
+// 按钮样式
+.el-button--primary  {
+  background-color: #3870d6;
+  color: #fff;
+  border: 1px solid #3870d6;
+  &:hover{
+    background-color:#4082fa;
+    color: #fff;
+    border: 1px solid #3870d6;
+  }
+}
+
+// 多选框样式checkbox,修改check的文字颜色
+.el-checkbox {
+  color: rgba(251, 252, 255, 0.97);
+  font-weight: 400;
+}
+

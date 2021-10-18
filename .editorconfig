@@ -1,0 +1,16 @@
+#表示是最顶层的配置文件，发现设为true时，才会停止查找.editorconfig文件
+root = true
+
+[*]
+indent_style = space
+# end_of_line = lf prettier会继承editorconfig文件的配置。mac下的crlf换行特别丑，但是window又不支持lf换行
+charset = utf-8
+trim_trailing_whitespace = true
+indent_size = 2
+
+[*.html]
+indent_size = 4
+max_line_length = 80
+
+[*.md]
+trim_trailing_whitespace = false
