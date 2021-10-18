@@ -2,4 +2,4 @@
 
 ## 预览
 
-![login2.gif]('/src/assets/images/login.gif')
+![login2.gif]('src/assets/images/login.gif')
