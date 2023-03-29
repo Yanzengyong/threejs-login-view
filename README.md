@@ -31,6 +31,7 @@ Next, import the VueThreeJS plugin in your Vue.js component:
 import VueThreeJS from 'vue-threejs';
 
 Now you can use the VueThreeJS component to render a Three.js scene:
+```vue
 <template>
   <VueThreeJS>
     <three-scene>
@@ -62,6 +63,7 @@ export default {
   },
 };
 </script>
+```
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
